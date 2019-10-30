@@ -1,3 +1,3 @@
 class Listing < ApplicationRecord
-  belongs_to
+  belongs_to :host, :class_name
 end
