@@ -33,6 +33,8 @@ describe Review do
     )
   end
 
+  rails g resource Review description:string rating:integer --no-test-framwork
+
   it 'has a description' do
     expect(review.description).to eq("This place was great!")
   end
