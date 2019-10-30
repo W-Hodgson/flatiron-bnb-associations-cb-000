@@ -33,8 +33,6 @@ describe Review do
     )
   end
 
-
-
   it 'has a description' do
     expect(review.description).to eq("This place was great!")
   end
