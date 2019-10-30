@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many
+  has_many :listings
 end
