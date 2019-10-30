@@ -6,5 +6,6 @@ class AddForeignKeysToTables < ActiveRecord::Migration[5.0]
     add_column :reservations, :guest_id, :integer
     add_column :reservations, :listing_id, :integer
     add_column :reviews, :guest_id, :integer
+    add_column :reviews, :reservation_id, :integer
   end
 end
